@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity() {
 
             // move to view activity_second
             val intent = Intent (this,SecondActivity::class.java)
+
+            /*send object parameter to second activity */
+            intent.putExtra("user_message",message)
+
             startActivity(intent)
         }
     }
