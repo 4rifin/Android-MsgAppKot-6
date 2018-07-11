@@ -11,7 +11,7 @@ class SecondActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        //extract value object parameter from MainActivity
+        //extract / passing data value object parameter from MainActivity
         val bundle:Bundle? = intent.extras
         var msg = bundle!!.getString("user_message")
 
