@@ -1,5 +1,6 @@
 package com.smartherd.msgappkot
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,6 +17,16 @@ class MainActivity : AppCompatActivity() {
         btnShowToast.setOnClickListener(){
             Log.i("MainActivity","Button Was Clicked !!")
             Toast.makeText(this,"Button Was Clicked !",Toast.LENGTH_SHORT).show()
+        }
+
+        btnSendMsgToNextActivity.setOnClickListener {
+            val message : String = etUserMessage.text.toString()
+            Log.i("MainActivity ","Second Button Was Clicked: " + message)
+            Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
+
+            // move to view activity_second
+            val intent = Intent (this,SecondActivity::class.java)
+            startActivity(intent)
         }
     }
 }
