@@ -46,4 +46,13 @@
         android:layout_marginBottom="149dp"
         android:text="Shere To Other Apps" />
 
+    <Button
+        android:id="@+id/btnRecycleViewDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:text="Recycle View Demo" />
+
 </RelativeLayout>

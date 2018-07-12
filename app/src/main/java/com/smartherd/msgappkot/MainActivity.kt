@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnSendMsgToNextActivity.setOnClickListener {
+            /*explecit intent*/
             val message : String = etUserMessage.text.toString()
             Log.i("MainActivity ","Second Button Was Clicked: " + message)
             Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
@@ -34,12 +35,18 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnShareToOtherApps.setOnClickListener(){
+            /*implicit intent*/
             val message : String = etUserMessage.text.toString()
             val intent = Intent()
             intent.action = Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT,message)
             intent.type = "text/plan"
             startActivity(Intent.createChooser(intent, "Share To : "))
+        }
+
+        btnRecycleViewDemo.setOnClickListener {
+            val intent = Intent(this,HobbiesActivity::class.java)
+            startActivity(intent)
         }
     }
 }
