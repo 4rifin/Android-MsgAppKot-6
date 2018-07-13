@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--button -->
+    <string name="btn_show_toast">Menunjukkan Tos</string>
+    <string name="et_enter_your_message">Masukkan pesan Anda</string>
+    <string name="btn_send_data_to_next_activity">Kirim Data Ke Aktivitas Berikutnya</string>
+    <string name="btn_shere_to_other_apps">Kirim Data Ke Aktivitas Berikutnya</string>
+    <string name="btn_recycle_view_demo">Demo Daur Ulang Tampilan</string>
+
+    <!--languange-->
+    <string name="text_button_was_clicked">Tombol Sudah Di Tekan !!</string>
+    <string name="text_Share_to">Bagikan Ke :</string>
+    <string name="text_second_button_was_clicked">Tombol Kedua Sudah Di tekan: </string>
+    <string name="text_title">Judul</string>
+</resources>

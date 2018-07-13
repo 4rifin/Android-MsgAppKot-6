@@ -1,4 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MsgAppKot</string>
     <string name="hello_world">Hello World!</string>
+    <!--button -->
+    <string name="btn_show_toast">Show Toast</string>
+    <string name="et_enter_your_message">Enter Your Message</string>
+    <string name="btn_send_data_to_next_activity">Send Data To Next Activity</string>
+    <string name="btn_shere_to_other_apps">Shere To Other Apps</string>
+    <string name="btn_recycle_view_demo">Recycle View Demo</string>
+    <!--languange-->
+    <string name="text_button_was_clicked">Button Was Clicked !!</string>
+    <string name="text_Share_to">Share To :</string>
+    <string name="text_second_button_was_clicked">Second Button Was Clicked: </string>
+    <string name="text_title">Title</string>
 </resources>
